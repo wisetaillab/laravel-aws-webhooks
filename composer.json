@@ -1,6 +1,6 @@
 {
-    "name": "renoki-co/laravel-aws-webhooks",
-    "description": "Easy webhook handler for Laravel to catch AWS SNS notifications for various services.",
+    "name": "wisetaillab/laravel-aws-webhooks",
+    "description": "Easy webhook handler for Laravel to catch AWS SNS notifications for various services. (WiseTailLab fork with Laravel 10/11/12 support)",
     "keywords": [
         "laravel",
         "php",
@@ -11,12 +11,17 @@
         "webhook"
     ],
     "license": "Apache-2.0",
-    "homepage": "https://github.com/renoki-co/laravel-aws-webhooks",
+    "homepage": "https://github.com/wisetaillab/laravel-aws-webhooks",
     "authors": [
         {
             "name": "Alex Renoki",
             "homepage": "https://github.com/rennokki",
-            "role": "Developer"
+            "role": "Original Author"
+        },
+        {
+            "name": "WiseTailLab",
+            "homepage": "https://github.com/wisetaillab",
+            "role": "Fork Maintainer"
         }
     ],
     "require": {

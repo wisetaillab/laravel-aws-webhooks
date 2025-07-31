@@ -1,23 +1,19 @@
-Laravel AWS Webhooks
-====================
+Laravel AWS Webhooks (WiseTailLab Fork)
+=======================================
 
-![CI](https://github.com/renoki-co/laravel-aws-webhooks/workflows/CI/badge.svg?branch=master)
-[![codecov](https://codecov.io/gh/renoki-co/laravel-aws-webhooks/branch/master/graph/badge.svg)](https://codecov.io/gh/renoki-co/laravel-aws-webhooks/branch/master)
-[![StyleCI](https://github.styleci.io/repos/281713043/shield?branch=master)](https://github.styleci.io/repos/281713043)
-[![Latest Stable Version](https://poser.pugx.org/renoki-co/laravel-aws-webhooks/v/stable)](https://packagist.org/packages/renoki-co/laravel-aws-webhooks)
-[![Total Downloads](https://poser.pugx.org/renoki-co/laravel-aws-webhooks/downloads)](https://packagist.org/packages/renoki-co/laravel-aws-webhooks)
-[![Monthly Downloads](https://poser.pugx.org/renoki-co/laravel-aws-webhooks/d/monthly)](https://packagist.org/packages/renoki-co/laravel-aws-webhooks)
 [![License](https://poser.pugx.org/renoki-co/laravel-aws-webhooks/license)](https://packagist.org/packages/renoki-co/laravel-aws-webhooks)
 
-Laravel AWS Webhooks is an easy webhook handler for Laravel to catch AWS SNS notifications for various services in a more eloquent way.
+This is a **WiseTailLab fork** of [renoki-co/laravel-aws-webhooks](https://github.com/renoki-co/laravel-aws-webhooks) - an easy webhook handler for Laravel to catch AWS SNS notifications for various services in a more eloquent way.
 
-Laravel AWS Webhooks leverages [renoki-co/laravel-sns-events](https://github.com/renoki-co/laravel-sns-events), a package that implements the basic functionalities of SNS HTTP/HTTPS requests, so that you can focus just on handing the event.
+**Fork Purpose**: This fork is maintained by WiseTailLab to provide enhanced Laravel version support (10, 11, 12) and additional features needed for our projects.
+
+Laravel AWS Webhooks leverages [wisetaillab/laravel-sns-events](https://github.com/wisetaillab/laravel-sns-events) (our fork of renoki-co/laravel-sns-events), a package that implements the basic functionalities of SNS HTTP/HTTPS requests, so that you can focus just on handling the event.
 
 ## 🤝 Supporting
 
-**If you are using one or more Renoki Co. open-source packages in your production apps, in presentation demos, hobby projects, school projects or so, sponsor our work with [Github Sponsors](https://github.com/sponsors/rennokki). 📦**
+**Original Work**: If you are using the original [renoki-co/laravel-aws-webhooks](https://github.com/renoki-co/laravel-aws-webhooks) package, please consider supporting [Renoki Co. on Github Sponsors](https://github.com/sponsors/rennokki). 📦
 
-[<img src="https://github-content.s3.fr-par.scw.cloud/static/35.jpg" height="210" width="418" />](https://github-content.renoki.org/github-repo/35)
+**This Fork**: This fork is maintained by WiseTailLab for our internal projects and the Laravel community.
 
 ## 📃 Documentation
 
@@ -35,9 +31,14 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## 🔒  Security
 
-If you discover any security related issues, please email alex@renoki.org instead of using the issue tracker.
+If you discover any security related issues, please create an issue in this repository or contact WiseTailLab.
 
 ## 🎉 Credits
 
-- [Alex Renoki](https://github.com/rennokki)
-- [All Contributors](../../contributors)
+**Original Package**:
+- [Alex Renoki](https://github.com/rennokki) - Original author and maintainer of [renoki-co/laravel-aws-webhooks](https://github.com/renoki-co/laravel-aws-webhooks)
+- [Original Contributors](https://github.com/renoki-co/laravel-aws-webhooks/contributors)
+
+**This Fork**:
+- [WiseTailLab](https://github.com/wisetaillab) - Fork maintainer
+- [Fork Contributors](../../contributors)
