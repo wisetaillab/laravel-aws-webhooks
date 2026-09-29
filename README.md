@@ -5,7 +5,7 @@ Laravel AWS Webhooks (WiseTailLab Fork)
 
 This is a **WiseTailLab fork** of [renoki-co/laravel-aws-webhooks](https://github.com/renoki-co/laravel-aws-webhooks) - an easy webhook handler for Laravel to catch AWS SNS notifications for various services in a more eloquent way.
 
-**Fork Purpose**: This fork is maintained by WiseTailLab to provide enhanced Laravel version support (10, 11, 12) and additional features needed for our projects.
+**Fork Purpose**: This fork is maintained by WiseTailLab to provide enhanced Laravel version support (10, 11, 12, 13) and additional features needed for our projects.
 
 Laravel AWS Webhooks leverages [wisetaillab/laravel-sns-events](https://github.com/wisetaillab/laravel-sns-events) (our fork of renoki-co/laravel-sns-events), a package that implements the basic functionalities of SNS HTTP/HTTPS requests, so that you can focus just on handling the event.
 
